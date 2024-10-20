@@ -1,0 +1,245 @@
+#cover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('picts/w2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#welcomeHeader, #subHeader {
+    font-weight: bold;
+}
+
+#cover .btn-primary {
+    font-size: 17px;
+    font-weight: bold;
+    background-color: rgb(255, 72, 0);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#cover .btn-primary:hover {
+    background-color: rgb(189, 53, 0);
+    color: #c7c7c7;
+}
+
+#cover .btn-primary:focus {
+    outline: none;
+}
+
+.navbar-nav .btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 5px 20px;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-left: 10px;
+    width: 80px;
+}
+
+.navbar-nav .btn-primary:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .btn-primary {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#about {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+#about h2, #about p {
+    color: #333;
+}
+
+#about .card {
+    border: none;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 0 auto;
+    width: 250px;
+}
+
+#about .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.developer-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#about .card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#about .card-body {
+    padding-top: 0;
+}
+
+#about .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#about .card-text {
+    font-size: 14px;
+    color: #666;
+}
+
+@media (max-width: 767px) {
+    #about .row .col-md-4 {
+        margin-bottom: 15px;
+    }
+}
+
+#welcomeHeader, #subHeader, #moreInfoBtn {
+    animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#news {
+    padding: 50px 0;
+    background-color: #f1f1f1;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    width: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.card-body {
+    padding: 0px 20px 20px;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.card-text {
+    font-size: 13px;
+}
+
+.card .btn {
+    font-size: 13px;
+    padding: 5px 10px;
+}
+
+.card-date {
+    font-size: 13px;
+    color: #6c757d;
+    margin-bottom: 5px;
+    float: right;
+}
+
+.btn-lihat-semua {
+    text-align: right;
+}
+
+.btn-lihat-semua .lhtsma:hover {
+    text-decoration: none;
+    color: rgb(189, 53, 0);
+}
+
+.btn-lihat-semua .lhtsma {
+    text-decoration: none;
+    color: rgb(255, 72, 0);
+}
+#news .card {
+    border: none;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 0 auto;
+    width: 350px;
+}
+
+#news .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+#contact {
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ffc107;
+}
+
+#about .row .col-md-4 {
+    margin-bottom: 5px; /* Adjust this value to reduce spacing */
+}
+
+#about .row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#about .row > [class*='col-'] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
